@@ -1,0 +1,34 @@
+a-mediatext {
+	background: var(--color-bg);
+	padding: var(--rhythm) 0 calc(var(--rhythm)*2) 0;
+}
+
+@media (min-width: 1024px) {
+	a-mediatext {
+		background: var(--color-bg);
+		padding: var(--rhythm) 0;
+	}
+}
+
+a-mediatext .ctn {
+	display: grid;
+	gap: var(--spacing-200);
+}
+
+@media (min-width: 1024px) {
+	a-mediatext .ctn {
+		grid-template-columns: 7fr 9fr;
+	}
+}
+
+a-mediatext .media {
+	justify-content: flex-end;
+}
+
+a-mediatext .media img {
+	border-radius: var(--rounded);
+}
+
+a-mediatext p {
+	max-width: 54ch;
+}

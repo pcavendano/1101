@@ -1,0 +1,23 @@
+name: mediatext
+icon: text-left
+label: "{{ anchor }}"
+fields:
+  anchor: 
+    type: slug
+  title:
+    type: text
+  text:
+    type: textarea
+    buttons: false
+  picture:
+    type: files
+    multiple: false
+    layout: cards
+    uploads:
+      template: image
+  btnLabel:
+    type: text
+  btnUrl:
+    type: text
+  background: 
+    type: colors

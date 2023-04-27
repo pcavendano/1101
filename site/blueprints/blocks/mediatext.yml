@@ -1,0 +1,16 @@
+name: mediatext
+icon: grid-right
+label: "{{ anchor }}"
+fields:
+  anchor: 
+    type: slug
+  image:
+    type: files
+    multiple: false
+    uploads:
+      template: image
+  text:
+    type: textarea
+    size: medium
+  color:
+    type: colors
