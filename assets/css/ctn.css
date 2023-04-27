@@ -1,0 +1,10 @@
+:root {
+    --ctn-padding: 1.5rem;
+    --ctn-max-width: 1600px;
+}
+
+.ctn {
+    margin: 0 auto;
+    padding: 0 var(--ctn-padding);
+    max-width: var(--ctn-max-width);
+}

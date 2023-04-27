@@ -1,0 +1,22 @@
+.default-heading {
+  padding: 2rem 1rem;
+}
+
+.default-heading h1 {
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.default-body {
+  padding: 0 1rem;
+  margin: 0 auto 0 0;
+  max-width: 700px;
+}
+
+.default-body .intro  {
+  color: var(--c-fgl);
+  font-weight: 600;
+  font-size: larger;
+  line-height: 1.5;
+  margin-bottom: 6rem;
+}

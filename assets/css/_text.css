@@ -1,0 +1,19 @@
+/* ._text {} */
+
+._text .ctn {
+    display: grid;
+    gap: var(--gap);
+
+}
+
+@media (min-width: 1024px) {
+    ._text .ctn {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+._text .links {
+    gap: var(--gap);
+    display: flex;
+    align-items: center;
+}

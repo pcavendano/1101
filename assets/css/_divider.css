@@ -1,0 +1,16 @@
+/* ._divider {} */
+
+._divider hr {
+    border: none;
+    height: 1px;
+    overflow: hidden;
+    position: relative;
+    color: var(--c-lightgray);
+}
+
+._divider hr::after {
+    background: currentColor;
+    content: "";
+    inset: 0;
+    position: absolute;
+}

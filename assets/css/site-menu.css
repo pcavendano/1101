@@ -1,0 +1,43 @@
+site-menu {
+	background: var(--c-white);
+	display: none;
+	inset: 0;
+	position: fixed;
+	text-align: center;
+	z-index: 6000;
+}
+
+site-menu[data-state="true"] {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+site-menu button {
+	position: absolute;
+	right: 1.5rem;
+	top: 1.5rem;
+	padding: 0.1rem 0.5rem;
+    text-align: center;
+    border-radius: 9999px;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+site-menu nav {
+	display: grid;
+	gap: 1rem;
+}
+
+site-menu a {
+	display: block;
+	width: 100%;
+	font-size: var(--fs-l);
+}
+
+site-menu .ls {
+	color: var(--c-fgl);
+}
