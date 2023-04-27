@@ -1,0 +1,89 @@
+.prose {
+	font-size: var(--fs-m);
+	line-height: 1.5;
+}
+
+.prose * + p {
+	margin-top: var(--gap);
+}
+
+.prose h1, .h1 {
+	font-size: var(--fs-2xl);
+	line-height: 1.2;
+}
+
+.prose h2, .h2 {
+	font-size: var(--fs-xl);
+	line-height: 1.2;
+}
+
+.prose h3, .h3,
+.prose h3, .h4,
+.prose h3, .h5,
+.prose h3, .h6 {
+	font-size: var(--fs-l);
+	line-height: 1.2;
+}
+
+.prose .codeblock {
+	display: grid;
+}
+
+/* MARGIN */
+.prose > :first-child {
+		padding-top: 0;
+		margin-top: 0;
+	}
+	.prose > :last-child {
+		margin-bottom: 0;
+	}
+
+.prose * + blockquote,
+.prose * + h4,
+.prose * + h5,
+.prose * + h6,
+.prose * + hr,
+.prose * + p,
+.prose * + ol,
+.prose * + ul,
+.prose > * + details {
+	margin-top: 1.5em;
+}
+
+/* LIST */
+.prose ul,
+.prose ol {
+	padding-left: 1rem;
+}
+
+.prose ul > li {
+	list-style: disc;
+}
+
+.prose ol > li {
+	list-style: decimal;
+}
+
+/* QUOTE */
+.prose blockquote {
+	font-size: 1.25rem;
+	line-height: 1.325em;
+	border-left: 2px solid black;
+	padding-left: 1rem;
+	margin: 3rem 0;
+	max-width: 25rem;
+}
+
+/* LINK */
+.prose a {
+	text-decoration: underline;
+}
+
+/* MISC */
+.prose :first-child {
+	margin-top: 0;
+}
+
+.prose :last-child {
+	margin-bottom: 0;
+}

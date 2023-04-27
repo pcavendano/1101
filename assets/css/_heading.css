@@ -1,0 +1,20 @@
+/* ._heading {} */
+
+._heading .ctn {
+    text-align: center;
+}
+
+._heading h1,
+._heading h2,
+._heading h3 {
+    max-width: 32ch;
+    margin: 0 auto;
+}
+
+._heading .links {
+    align-items: center;
+    display: flex;
+    margin-top: var(--gap);
+    gap: 1rem;
+    justify-content: center;
+}

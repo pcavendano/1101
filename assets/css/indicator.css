@@ -1,0 +1,38 @@
+.indicator {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--c-white);
+	visibility: hidden;
+	opacity: 0;
+	transition-property: opacity, visibility;
+	transition-duration: 0.2s;
+	z-index: 9999;
+}
+
+#page > .indicator {
+	position: fixed;
+}
+
+[class*="htmx"] .indicator {
+	transition-delay: 0.4s;
+	opacity: 0.9;
+	visibility: visible;
+}
+
+.indicator .spinner {
+	transition-duration: 0s;
+	transition-delay: 0s;
+	transition-property: visibility, opacity;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.htmx-request .indicator .spinner,
+.htmx-swapping .indicator .spinner {
+	transition-duration: 0.2s;
+	visibility: visible;
+	opacity: 1;
+}

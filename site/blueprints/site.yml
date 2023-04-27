@@ -1,0 +1,49 @@
+title: Site
+tabs:
+  content:
+    sections:
+      pages:
+        type: pages
+      content:
+        type: fields
+        fields:
+          nav:
+            type: structure
+            fields:
+              label: 
+                type: text
+              url: 
+          footer:
+            type: text
+  seo:
+    sections:
+      seo:
+        type: fields
+        fields:
+          seoImage:
+            type: files
+            multiple: false
+  advanced:
+    sections:
+      head:
+        type: fields
+        fields:
+          scripts:
+            type: textarea
+            buttons: false
+            font: monospace
+            help: Include script tags
+          styles:
+            type: textarea
+            buttons: false
+            font: monospace
+            help: Ommit style tag
+          maintenance:
+            type: toggle
+          maintenanceTitle:
+            type: text
+          maintenanceText:
+            type: textarea
+      files:
+        type: files
+    

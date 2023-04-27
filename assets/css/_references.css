@@ -1,0 +1,42 @@
+/* ._references {} */
+
+._references .ctn {
+    display: grid;
+    gap: var(--gap);
+
+}
+
+@media (min-width: 1024px) {
+    ._references .ctn {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+._references .prose {
+    max-width: 52ch;
+}
+
+._references .refs li:not(:first-child) {
+    border-top: 1px solid var(--c-lightgray);
+    padding-top: var(--gutter);
+}
+
+._references .refs li {
+    padding-bottom: var(--gutter);
+}
+
+._references .refs li > a {
+    font-size: var(--fs-l);
+}
+
+._references .refs li sub {
+    display: block;
+    font-size: var(--fs-s);
+    color: var(--c-darkgray);
+    margin-top: 0.5rem;
+}
+
+._references .refs li a {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,50 @@
+/* COLORS */
+
+:root {
+	--c-white: rgb(255, 255, 255);
+	--c-black: rgb(5, 5, 5);
+	--c-lightgray: rgba(0, 0, 0, 0.2);
+	--c-darkgray: rgba(0, 0, 0, 0.7);
+	--c-blue: #1d1dff;
+}
+
+/* SPACINGS */
+
+:root {
+	--rhythm: 8rem;
+	--gap: 2rem;
+	--gutter: 1rem;
+	--header: 4.04875rem;
+}
+
+/* TEXT */
+
+:root {
+	--font-serif: 'IBM Plex Serif', 'Times New Roman', Times, serif;
+	--font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: var(--font-sans);
+	font-size: 14px;	
+	
+	--fs-s: .8rem;
+	--fs-m: 1rem;
+	--fs-l: 1.5rem;
+	--fs-xl: 2rem;
+	--fs-2xl: 3rem;
+}
+
+@media (min-width: 1024px) {
+	:root {
+		font-size: 1vw;		
+	}
+}
+
+@media (min-width: 1783px) {
+	:root {
+		font-size: 18px;		
+	}
+}
+
+::selection {
+    background-color: var(--c-blue);
+	color: var(--c-white);
+}

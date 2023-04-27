@@ -1,0 +1,11 @@
+/* ._image {} */
+
+
+._image figure {
+    background: var(--c-lightgray);
+}
+
+._image img {
+    width: 100%;
+    height: auto;
+}

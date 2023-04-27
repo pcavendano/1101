@@ -1,0 +1,40 @@
+title: Default
+tabs:
+
+  content:
+    sections:
+      content:
+        type: fields
+        fields:
+          blocks:
+            type: blocks
+            fieldsets:
+              - _text
+              - _references
+              - _feature
+              - _features
+              - _divider
+              - _image
+              - _video
+              - _heading
+  seo:
+    sections:
+      seo:
+        type: fields
+        fields:
+          seoTitle:
+            type: text
+          seoDescription:
+            type: text
+          seoImage:
+            type: files
+            multiple: false
+
+  advanced:
+    sections:
+      pages:
+        type: pages
+        template: default
+      files:
+        type: files
+

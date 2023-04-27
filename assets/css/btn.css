@@ -1,0 +1,19 @@
+.btn {
+    background: black;
+    color: white;
+    border-radius: 9999px;
+    padding: 7px 15px;
+    font-size: var(--text-sm);
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    text-decoration: none !important;
+}
+
+.link {
+    color: var(--c-fg);
+    font-size: var(--text-base);
+    text-decoration: underline;
+}
